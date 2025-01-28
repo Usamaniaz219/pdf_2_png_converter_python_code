@@ -70,34 +70,6 @@ process_txt_file(txt_file_path, pdf_directory, output_folder)
 
 
 
-## Function to process all PDFs inside the .txt file
-
-# def process_txt_file(txt_file_path, pdf_directory, output_folder):
-#     # Check if the output folder exists, if not, create it
-#     if not os.path.exists(output_folder):
-#         os.makedirs(output_folder)
-
-#     # Read the .txt file to get the names of the PDFs
-#     with open(txt_file_path, 'r') as file:
-#         pdf_names = [line.strip().replace(".pdf", "") for line in file if line.strip()]
-
-#     # Loop through the names and search for PDFs in the directory
-#     for pdf_name in pdf_names:
-#         print("pdf file name:",pdf_name)
-#         pdf_filename = os.path.join(pdf_directory, pdf_name + ".pdf")
-        
-#         if os.path.exists(pdf_filename):
-#             print(f"Processing {pdf_filename}...")
-#             # Create a subfolder for each PDF's images
-#             pdf_output_folder = os.path.join(output_folder, pdf_name)
-#             if not os.path.exists(pdf_output_folder):
-#                 os.makedirs(pdf_output_folder)
-#             # Convert the PDF to images
-#             convert_pdfs_2_images(pdf_filename, pdf_output_folder)
-#         else:
-#             print(f"PDF {pdf_filename} not found in the directory.")
-
-
 
 
 
