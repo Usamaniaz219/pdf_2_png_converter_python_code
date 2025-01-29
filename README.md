@@ -7,7 +7,7 @@ This script converts PDF files into PNG images using the PyMuPDF library. It inc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Usamaniaz219/pdf_2_png_converter_python_code.git
    ```
    
 2. Install PyMuPDF:
