@@ -49,11 +49,6 @@ def process_txt_file(txt_file_path, pdf_directory, output_folder):
             else:
                 print(f"Skipping {pdf_name}. It is listed in the exclusion file.")
 
-txt_file_path = "/home/usama/Git _text_file"
-pdf_directory = "/media/usama/SSD/Usama_dev_ssd/map_links_23_sep/renamed_pdf_testing/"
-output_folder = "/media/usama/SSD/Usama_dev_ssd/Png_images_17_oct_2024/"
-
-process_txt_file(txt_file_path, pdf_directory, output_folder)
 
 
 
