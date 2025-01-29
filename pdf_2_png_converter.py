@@ -1,9 +1,6 @@
 import pymupdf
 import os
 
-# import os
-# import fitz  # PyMuPDF
-
 def convert_pdfs_2_images(pdf_path, output_folder):
     # Extract the base name of the PDF file without extension
     pdf_name = os.path.splitext(os.path.basename(pdf_path))[0]
@@ -21,11 +18,6 @@ def convert_pdfs_2_images(pdf_path, output_folder):
         print(f"Saved {image_filename}")
     
     pdf_document.close()
-
-# # convert_pdfs_2_images("/home/usama/Amberley-Ohio.pdf", "output_images")
-
-
-
 
 # Function to process all PDFs except those listed in the .txt file
 def process_txt_file(txt_file_path, pdf_directory, output_folder):
